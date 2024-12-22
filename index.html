@@ -46,6 +46,18 @@
             color: #007bff;
             text-decoration: none;
         }
+        .image-container {
+            display: flex; /* 使用 Flex 布局 */
+            justify-content: space-between; /* 控制图片间距 */
+            flex-wrap: wrap; /* 图片超出时换行 */
+        }
+        .image-item {
+            width: 30%; /* 每张图片的宽度 */
+            text-align: center;
+        }
+        .image-item img {
+            width: 100%; /* 图片宽度适应容器 */
+        }
     </style>
 </head>
 <body>
